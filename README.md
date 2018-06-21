@@ -1,2 +1,3 @@
-# hola-challenge
-Hola JS Challenge Summer 2018: Haggling
+ # ![Hola!](https://hola.org/img/logo.png) Challenge 2018
+
+> Author: Carlos Abraham Hernandez
