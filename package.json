@@ -24,6 +24,6 @@
   "homepage": "https://github.com/19cah/hola-challenge#readme",
   "devDependencies": {
     "xo": "^0.21.1",
-	"@types/node": "^10.3.4"
+    "node": "^10.4.1"
   }
 }
