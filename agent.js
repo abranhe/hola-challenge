@@ -5,7 +5,7 @@
  *
  *	Author: Carlos Abraham
  *	Email: abraham@19cah.com
- *	Repo: github.com/19cah/hola-challenge [PRIVATE until July 20, 2018]
+ *	Repo: github.com/19cah/hola-challenge
  */
 
 module.exports = class Agent {
