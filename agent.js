@@ -32,8 +32,8 @@ module.exports = class Agent {
 			}
 			let counter = 4;
 
-			if(this.me == 0) {
-					counter = 5;
+			if (this.me === 0) {
+				counter = 5;
 			}
 
 			// Decreasing by 1 the total value for each round
@@ -44,12 +44,12 @@ module.exports = class Agent {
 					}
 					break;
 				case 2:
-					if (sum >= this.total - (counter-1)) {
+					if (sum >= this.total - (counter - 1)) {
 						return;
 					}
 					break;
 				case 3:
-					if (sum >= this.total - (counter-2)) {
+					if (sum >= this.total - (counter - 2)) {
 						return;
 					}
 					break;
