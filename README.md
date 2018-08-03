@@ -7,7 +7,7 @@
 
 # Overview
 
-This is my solution for the [2018 Hola Challenge](https://github.com/abranhe/hola-challenge)
+This is my solution for the [2018 Hola Challenge](https://github.com/hola/challenge_haggling)
 
 Let's say there are a book, two hats, and three balls. You and a partner have to decide how to split these objects between the two of you. To you, the book is worth $4, a ball $2, and the hats are worthless. The partner might value the same objects differently; you don't know their valuation, but you know that the total worth of all objects is the same as for you, in this case, $10.
 
