@@ -5,7 +5,7 @@
  *
  *	Author: Carlos Abraham
  *	Email: abraham@19cah.com
- *	Repo: github.com/19cah/hola-challenge
+ *	URL: https://github.com/abranhe/hola-challenge
  */
 
 module.exports = class Agent {
@@ -30,37 +30,41 @@ module.exports = class Agent {
 			for (let i = 0; i < offer.length; i++) {
 				sum += this.values[i] * offer[i];
 			}
+			let counter = 4;
+
+			if(this.me == 0) {
+					counter = 5;
+			}
 
 			// Decreasing by 1 the total value for each round
 			switch (this.rounds) {
 				case 1:
-					if (sum >= this.total - 4) {
+					if (sum >= this.total - counter) {
 						return;
 					}
 					break;
 				case 2:
-					if (sum >= this.total - 3) {
+					if (sum >= this.total - (counter-1)) {
 						return;
 					}
 					break;
 				case 3:
-					if (sum >= this.total - 2) {
+					if (sum >= this.total - (counter-2)) {
 						return;
 					}
 					break;
 				case 4:
-					if (sum >= this.total - 1) {
+					if (sum >= this.total / 10) {
 						return;
 					}
 					break;
 				case 5:
-					if (sum === this.total) {
+					if (sum >= this.total / 0) {
 						return;
 					}
 					break;
-				// Receive at least half of the total value
 				default:
-					if (sum >= this.total / 2) {
+					if (sum >= this.total / 10) {
 						return;
 					}
 			}

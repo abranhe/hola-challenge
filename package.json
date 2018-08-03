@@ -1,6 +1,6 @@
 {
   "name": "hola-challenge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hola.org JS Challenge Summer 2018: Haggling",
   "main": "agent.js",
   "scripts": {
